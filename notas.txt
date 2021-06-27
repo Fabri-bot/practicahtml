@@ -1,0 +1,43 @@
+GUI = Graphical User Interface . Provee una forma visual de ejecutar comandos consola.
+
+GIT = Sistema de Versionado
+
+GIT-HUB = Servicios, que implementa GIT
+
+Repositorios = Conjunto de archivos
+Local/Remoto
+
+Comandos comunes de Git
+
+Repo/Sync
+GIT Clone = Clonar("copiar")  DESDE remoto HACIA local. Normalmente se hace al comienzo (trabaja nuevo)
+
+GIT Pull = TRAER cambios DESDE remoto HACIA local (cuando ya tengo el repo local)
+GIT Push = ENVIAR nuevos cambios DESDE local HACIA remoto
+
+
+Repo Local
+GIT Commit = Marcar "un punto" en los cambios. Minimo uno por dia, si pueden ser mas, mejor.
+GIT Add
+GIT Delete
+GIT Stage
+
+GIT Merge
+
+-------------
+
+
+Workflow:
+
+Trabajar:
+	1 Crear nuevos archivos
+	2 Modificar codigo (archivos) existentes
+	3 Eliminar archivo (no estan comun)
+
+Comandos GIT
+
+	1 <- "Add" al repo, para qeu comience el seguimiento de GIT
+		Si no esta "Added" a GIT, no le hace seguimiento y no podes hacer "Commit" de esos cambios/archivos"
+	2 <- "Commits" cada tanto, para hacer sgeuimiento de cambios mas prolijo.
+
+Para hacer una Sync correcta, -> primero PULL y dsp PUSH <-
