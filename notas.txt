@@ -40,4 +40,6 @@ Comandos GIT
 		Si no esta "Added" a GIT, no le hace seguimiento y no podes hacer "Commit" de esos cambios/archivos"
 	2 <- "Commits" cada tanto, para hacer sgeuimiento de cambios mas prolijo.
 
+Despues de el/los commits, tenes que hacer SYNC
+
 Para hacer una Sync correcta, -> primero PULL y dsp PUSH <-
