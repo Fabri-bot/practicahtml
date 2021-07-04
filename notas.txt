@@ -45,3 +45,23 @@ Comandos GIT
 Despues de el/los commits, tenes que hacer SYNC
 
 Para hacer una Sync correcta, -> primero PULL y dsp PUSH <-
+
+--------------
+
+4/7/21
+
+HTML es el archivo que va a entregarse al navegador, va a "renderizar" según el código que hayamos declarado/guardado en el archivo html. Una vez que el navegador lee y "renderiza" el codigo, inicializa un "motor en tiempo real" que interpreata lenguaje javascript. Este motor puede cambiar el codigo HTML original, pero solo temporalmente. Si el usuario recarga la página se perderan los cambios que haya hecho javascript y volverán a aparecer tal cual lo declarado en el HTML original.
+
+Nuevos conceptos:
+"Renderiza" = Accion de "dibujo" de elementos en pantalla a partir de lo declarado en el código html.
+"Nodos" = Son elementos de un archivo XML que tienen una declaracion indicando donde comienzan y donde terminan. Siempre que se abre un nodo debe de cerrarse ANTES de que termine/fin de archivo, sino tendremos un error de parseo.
+
+"Nodo" es sinonimo de etiqueta
+
+Depuracion: Es el proceso de inspeccionar/investigar el codigo para entender como funciona o para hacer corecciones en el mismo.
+
+Depuracion es sinonimo de "Debug/debugging"
+
+Runtime = tiempo de ejecucion
+
+Inspector: Una herramienta que sirve para examinar los elementos declarados en las lineas del código respecto a su posición y aspectos visuales como color, tamaño, posición etc...
