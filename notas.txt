@@ -65,3 +65,53 @@ Depuracion es sinonimo de "Debug/debugging"
 Runtime = tiempo de ejecucion
 
 Inspector: Una herramienta que sirve para examinar los elementos declarados en las lineas del código respecto a su posición y aspectos visuales como color, tamaño, posición etc...
+
+10/7/21
+
+--------- > Importante: case-sensitive = sensible a las mayusculas <----------------------
+No es lo mismo:
+let Fruta = "naranja"
+let fruta = "mandarina"
+
+Para ayudarnos con el case se crearon convenciones de escritura de codigo = Acuerdo de como escribir.
+
+Convenciones de escritura: CamelCase, Pascal
+
+sin convencion: nombredevariable (no hacer esto)
+Camel: nombreDeVariable
+Pascal: NombreDeVariable
+Otras: nombre_var
+
+Siglas usar Pascal: HTML (HiperTextMetadataLanguage)
+Siglas y nombres usar Camel+Pascal: importeIVA
+IVA usar Pascal (Impuesto Valor Agregado)
+
+NaN = Not a Number (no es un numero)
+
+var input; //Declaracion de variable, sin asignar valor (aun)
+var input2 = "texto"; //Declaracion de variable, asigno una cadena (string)
+
+if(input === undefined)
+{
+console.log("input no tiene valor");
+}
+
+if(input2 === undefined)
+{
+console.log("input2 no tiene valor");
+}
+
+Ámbito de declaracion variables
+LET: Pueden tener el mismo nombre, en distintos ambitos (contextos) con diferentes valores.
+VAR: Se declara una sola vez, para la aplicacion (cualquier contexto)
+if (true) {
+  var x = 5; //cuando termina la ejecucion del bloque, sigue existiendo (el valor y el nombre)
+  let y = 5; //cuando se termina el bloque, se pierde (se destruye, deja de existir)
+}
+console.log(x);  // x es 5
+console.log(y); // ReferenceError: y no está definida
+
+null. Una palabra clave especial que denota un valor nulo. (Dado que JavaScript distingue entre mayúsculas y minúsculas, null no es lo mismo que Null, NULL o cualquier otra variante).
+undefined. Una propiedad de alto nivel cuyo valor no está definido.
+
+parse = "parsear" una accion de convertir un valor a otro, correctamente.
